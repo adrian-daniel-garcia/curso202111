@@ -8,6 +8,8 @@ import { TemplateFormComponent } from './components/template-form/template-form.
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 import { PersonaListComponent } from './components/persona-list/persona-list.component';
 import { PersonaItemComponent } from './components/persona-item/persona-item.component';
+import { MoviesComponent } from './components/movies/movies.component';
+import { MovieDetailComponent } from './components/movie-detail/movie-detail.component';
 // import { PersonService } from './services/person.service';
 
 @NgModule({
@@ -16,7 +18,9 @@ import { PersonaItemComponent } from './components/persona-item/persona-item.com
     TemplateFormComponent,
     ReactiveFormComponent,
     PersonaListComponent,
-    PersonaItemComponent
+    PersonaItemComponent,
+    MoviesComponent,
+    MovieDetailComponent
   ],
   imports: [
     BrowserModule,

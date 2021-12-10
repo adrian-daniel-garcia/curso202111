@@ -63,7 +63,6 @@ export const moviesMock: Movie[] = [
         ]
     },
     {
-        "disambiguation": "I",
         "id": "/title/tt3171562/",
         "image": {
             "height": 1633,
