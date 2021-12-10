@@ -10,6 +10,7 @@ import { PersonaListComponent } from './components/persona-list/persona-list.com
 import { PersonaItemComponent } from './components/persona-item/persona-item.component';
 import { MoviesComponent } from './components/movies/movies.component';
 import { MovieDetailComponent } from './components/movie-detail/movie-detail.component';
+import { MenuComponent } from './components/menu/menu.component';
 // import { PersonService } from './services/person.service';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { MovieDetailComponent } from './components/movie-detail/movie-detail.com
     PersonaListComponent,
     PersonaItemComponent,
     MoviesComponent,
-    MovieDetailComponent
+    MovieDetailComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
