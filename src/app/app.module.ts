@@ -8,6 +8,7 @@ import { TemplateFormComponent } from './components/template-form/template-form.
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 import { PersonaListComponent } from './components/persona-list/persona-list.component';
 import { PersonaItemComponent } from './components/persona-item/persona-item.component';
+// import { PersonService } from './services/person.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { PersonaItemComponent } from './components/persona-item/persona-item.com
     ReactiveFormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    // PersonService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

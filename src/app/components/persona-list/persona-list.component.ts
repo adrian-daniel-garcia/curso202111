@@ -15,10 +15,10 @@ export class PersonaListComponent implements OnInit, AfterViewInit {
   selectedPersona: Persona = { nombre: '', apellido: '' };
 
   constructor() { }
+
   @ViewChildren(PersonaItemComponent) personaItems: QueryList<PersonaItemComponent> | any;
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   ngAfterViewInit() {
 
