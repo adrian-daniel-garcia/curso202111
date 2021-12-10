@@ -2,10 +2,10 @@ import { Movie } from '../models/movie.model';
 
 export const moviesMock: Movie[] = [
     {
-        "id": "/title/tt0061605/",
+        "id": "tt0061605",
         "image": {
             "height": 495,
-            "id": "/title/tt0061605/images/rm2551135232",
+            "id": "tt0061605/images/rm2551135232",
             "url": "https://m.media-amazon.com/images/M/MV5BYzk3MTI3NWMtZWFiMi00YmIyLTg2ODQtNjUzZDA0MGYyNWY2XkEyXkFqcGdeQXVyMzk4OTI2MjM@._V1_.jpg",
             "width": 350
         },
@@ -15,7 +15,7 @@ export const moviesMock: Movie[] = [
         "year": 1967,
         "principals": [
             {
-                "id": "/name/nm0529543/",
+                "id": "/name/nm0529543",
                 "legacyNameText": "Léaud, Jean-Pierre",
                 "name": "Jean-Pierre Léaud",
                 "billing": 1,
@@ -30,7 +30,7 @@ export const moviesMock: Movie[] = [
                 ]
             },
             {
-                "id": "/name/nm0243357/",
+                "id": "/name/nm0243357",
                 "legacyNameText": "Duport, Catherine-Isabelle",
                 "name": "Catherine-Isabelle Duport",
                 "as": "Catherine Duport",
@@ -46,7 +46,7 @@ export const moviesMock: Movie[] = [
                 ]
             },
             {
-                "id": "/name/nm0083211/",
+                "id": "/name/nm0083211",
                 "legacyNameText": "Bir, Jacqueline",
                 "name": "Jacqueline Bir",
                 "billing": 3,
@@ -63,10 +63,10 @@ export const moviesMock: Movie[] = [
         ]
     },
     {
-        "id": "/title/tt3171562/",
+        "id": "tt3171562",
         "image": {
             "height": 1633,
-            "id": "/title/tt3171562/images/rm1420311808",
+            "id": "tt3171562/images/rm1420311808",
             "url": "https://m.media-amazon.com/images/M/MV5BZjFjZDI0Y2EtM2NlYi00N2E1LWI5YTgtN2FlMzZhNjUxMDBlXkEyXkFqcGdeQXVyNzI3NDg3NTA@._V1_.jpg",
             "width": 1106
         },
@@ -76,7 +76,7 @@ export const moviesMock: Movie[] = [
         "year": 2013,
         "principals": [
             {
-                "id": "/name/nm3215890/",
+                "id": "/name/nm3215890",
                 "legacyNameText": "Cassell, Seth",
                 "name": "Seth Cassell",
                 "category": "actor",
@@ -91,7 +91,7 @@ export const moviesMock: Movie[] = [
             },
             {
                 "disambiguation": "I",
-                "id": "/name/nm5174220/",
+                "id": "/name/nm5174220",
                 "legacyNameText": "Robertson, Lauren (I)",
                 "name": "Lauren Robertson",
                 "category": "actress",
@@ -107,15 +107,15 @@ export const moviesMock: Movie[] = [
         ]
     },
     {
-        "id": "/title/tt5028002/",
+        "id": "tt5028002",
         "image": {
             "height": 1200,
-            "id": "/title/tt5028002/images/rm512172544",
+            "id": "tt5028002/images/rm512172544",
             "url": "https://m.media-amazon.com/images/M/MV5BMTAxNTIwNzE5MTJeQTJeQWpwZ15BbWU4MDE2NDQ2MTMy._V1_.jpg",
             "width": 800
         },
         "runningTimeInMinutes": 44,
-        "nextEpisode": "/title/tt5653618/",
+        "nextEpisode": "tt5653618",
         "numberOfEpisodes": 30,
         "seriesEndYear": 2018,
         "seriesStartYear": 2016,
@@ -125,7 +125,7 @@ export const moviesMock: Movie[] = [
         "principals": [
             {
                 "disambiguation": "I",
-                "id": "/name/nm0111013/",
+                "id": "/name/nm0111013",
                 "legacyNameText": "Brody, Adam (I)",
                 "name": "Adam Brody",
                 "category": "actor",
@@ -137,13 +137,13 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Nick Talman",
-                        "characterId": "/character/ch0579647/"
+                        "characterId": "/character/ch0579647"
                     }
                 ],
                 "startYear": 2016
             },
             {
-                "id": "/name/nm1346230/",
+                "id": "/name/nm1346230",
                 "legacyNameText": "Gathegi, Edi",
                 "name": "Edi Gathegi",
                 "category": "actor",
@@ -155,13 +155,13 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Ronald Dacey",
-                        "characterId": "/character/ch0579648/"
+                        "characterId": "/character/ch0579648"
                     }
                 ],
                 "startYear": 2016
             },
             {
-                "id": "/name/nm6569399/",
+                "id": "/name/nm6569399",
                 "legacyNameText": "Marrero, Otmara",
                 "name": "Otmara Marrero",
                 "category": "actress",
@@ -173,7 +173,7 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Izzy Morales",
-                        "characterId": "/character/ch0579649/"
+                        "characterId": "/character/ch0579649"
                     }
                 ],
                 "startYear": 2016
@@ -181,10 +181,10 @@ export const moviesMock: Movie[] = [
         ]
     },
     {
-        "id": "/title/tt2660888/",
+        "id": "tt2660888",
         "image": {
             "height": 1137,
-            "id": "/title/tt2660888/images/rm1082621953",
+            "id": "tt2660888/images/rm1082621953",
             "url": "https://m.media-amazon.com/images/M/MV5BODgzMTZmMGMtNTM4Ni00ZjIxLWIyYmUtZjcxMDEwMjkxMzQyXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_.jpg",
             "width": 760
         },
@@ -195,7 +195,7 @@ export const moviesMock: Movie[] = [
         "principals": [
             {
                 "disambiguation": "I",
-                "id": "/name/nm1517976/",
+                "id": "/name/nm1517976",
                 "legacyNameText": "Pine, Chris (I)",
                 "name": "Chris Pine",
                 "billing": 1,
@@ -206,12 +206,12 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Captain James T. Kirk",
-                        "characterId": "/character/ch0001448/"
+                        "characterId": "/character/ch0001448"
                     }
                 ]
             },
             {
-                "id": "/name/nm0704270/",
+                "id": "/name/nm0704270",
                 "legacyNameText": "Quinto, Zachary",
                 "name": "Zachary Quinto",
                 "billing": 2,
@@ -222,12 +222,12 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Commander Spock",
-                        "characterId": "/character/ch0001439/"
+                        "characterId": "/character/ch0001439"
                     }
                 ]
             },
             {
-                "id": "/name/nm0881631/",
+                "id": "/name/nm0881631",
                 "legacyNameText": "Urban, Karl",
                 "name": "Karl Urban",
                 "billing": 3,
@@ -238,22 +238,22 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Doctor 'Bones' McCoy",
-                        "characterId": "/character/ch0001514/"
+                        "characterId": "/character/ch0001514"
                     }
                 ]
             }
         ]
     },
     {
-        "id": "/title/tt12867810/",
+        "id": "tt12867810",
         "image": {
             "height": 2048,
-            "id": "/title/tt12867810/images/rm2822086913",
+            "id": "tt12867810/images/rm2822086913",
             "url": "https://m.media-amazon.com/images/M/MV5BZGEzMjMxNmItYWM2MC00MGU3LTk2YmQtYjUyOTVjYTRlZDQ3XkEyXkFqcGdeQXVyNDU4MDQ0MjM@._V1_.jpg",
             "width": 1432
         },
         "runningTimeInMinutes": 80,
-        "nextEpisode": "/title/tt13298310/",
+        "nextEpisode": "tt13298310",
         "numberOfEpisodes": 16,
         "seriesStartYear": 2020,
         "title": "Start-Up",
@@ -261,7 +261,7 @@ export const moviesMock: Movie[] = [
         "year": 2020,
         "principals": [
             {
-                "id": "/name/nm7108248/",
+                "id": "/name/nm7108248",
                 "legacyNameText": "Suzy, Bae",
                 "name": "Bae Suzy",
                 "category": "actress",
@@ -278,7 +278,7 @@ export const moviesMock: Movie[] = [
                 "startYear": 2020
             },
             {
-                "id": "/name/nm7632185/",
+                "id": "/name/nm7632185",
                 "legacyNameText": "Joo-Hyuk, Nam",
                 "name": "Nam Joo-Hyuk",
                 "category": "actor",
@@ -295,7 +295,7 @@ export const moviesMock: Movie[] = [
                 "startYear": 2020
             },
             {
-                "id": "/name/nm9170918/",
+                "id": "/name/nm9170918",
                 "legacyNameText": "Seon-Ho, Kim",
                 "name": "Kim Seon-Ho",
                 "category": "actor",
@@ -314,10 +314,10 @@ export const moviesMock: Movie[] = [
         ]
     },
     {
-        "id": "/title/tt0078902/",
+        "id": "tt0078902",
         "image": {
             "height": 2743,
-            "id": "/title/tt0078902/images/rm4233157121",
+            "id": "tt0078902/images/rm4233157121",
             "url": "https://m.media-amazon.com/images/M/MV5BOGQyNDhiOTAtZGVmOC00MTNkLWE1YzItZGE0NjUzOTcyZTliXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_.jpg",
             "width": 1769
         },
@@ -328,7 +328,7 @@ export const moviesMock: Movie[] = [
         "principals": [
             {
                 "disambiguation": "I",
-                "id": "/name/nm0160550/",
+                "id": "/name/nm0160550",
                 "legacyNameText": "Christopher, Dennis (I)",
                 "name": "Dennis Christopher",
                 "billing": 1,
@@ -343,7 +343,7 @@ export const moviesMock: Movie[] = [
                 ]
             },
             {
-                "id": "/name/nm0000598/",
+                "id": "/name/nm0000598",
                 "legacyNameText": "Quaid, Dennis",
                 "name": "Dennis Quaid",
                 "billing": 2,
@@ -354,13 +354,13 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Mike",
-                        "characterId": "/character/ch0457560/"
+                        "characterId": "/character/ch0457560"
                     }
                 ]
             },
             {
                 "disambiguation": "I",
-                "id": "/name/nm0827663/",
+                "id": "/name/nm0827663",
                 "legacyNameText": "Stern, Daniel (I)",
                 "name": "Daniel Stern",
                 "billing": 3,
@@ -371,17 +371,17 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Cyril",
-                        "characterId": "/character/ch0379731/"
+                        "characterId": "/character/ch0379731"
                     }
                 ]
             }
         ]
     },
     {
-        "id": "/title/tt0790623/",
+        "id": "tt0790623",
         "image": {
             "height": 666,
-            "id": "/title/tt0790623/images/rm291870208",
+            "id": "tt0790623/images/rm291870208",
             "url": "https://m.media-amazon.com/images/M/MV5BMTExNDk1MjAxNTJeQTJeQWpwZ15BbWU3MDc4MzkyNjE@._V1_.jpg",
             "width": 450
         },
@@ -391,7 +391,7 @@ export const moviesMock: Movie[] = [
         "year": 2007,
         "principals": [
             {
-                "id": "/name/nm0001173/",
+                "id": "/name/nm0001173",
                 "legacyNameText": "Eckhart, Aaron",
                 "name": "Aaron Eckhart",
                 "billing": 1,
@@ -402,13 +402,13 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Bill",
-                        "characterId": "/character/ch0060110/"
+                        "characterId": "/character/ch0060110"
                     }
                 ]
             },
             {
                 "disambiguation": "I",
-                "id": "/name/nm0004695/",
+                "id": "/name/nm0004695",
                 "legacyNameText": "Alba, Jessica (I)",
                 "name": "Jessica Alba",
                 "billing": 2,
@@ -419,12 +419,12 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Lucy",
-                        "characterId": "/character/ch0067854/"
+                        "characterId": "/character/ch0067854"
                     }
                 ]
             },
             {
-                "id": "/name/nm0503567/",
+                "id": "/name/nm0503567",
                 "legacyNameText": "Lerman, Logan",
                 "name": "Logan Lerman",
                 "billing": 4,
@@ -435,22 +435,22 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "The Kid",
-                        "characterId": "/character/ch0144786/"
+                        "characterId": "/character/ch0144786"
                     }
                 ]
             }
         ]
     },
     {
-        "id": "/title/tt5171438/",
+        "id": "tt5171438",
         "image": {
             "height": 1500,
-            "id": "/title/tt5171438/images/rm1057289985",
+            "id": "tt5171438/images/rm1057289985",
             "url": "https://m.media-amazon.com/images/M/MV5BNjg1NTc2MDktZTU5Ni00OTZiLWIyNjQtN2FhNGY4MzAxNmZkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
             "width": 1000
         },
         "runningTimeInMinutes": 60,
-        "nextEpisode": "/title/tt5509372/",
+        "nextEpisode": "tt5509372",
         "numberOfEpisodes": 53,
         "seriesStartYear": 2017,
         "title": "Star Trek: Discovery",
@@ -458,7 +458,7 @@ export const moviesMock: Movie[] = [
         "year": 2017,
         "principals": [
             {
-                "id": "/name/nm2792296/",
+                "id": "/name/nm2792296",
                 "legacyNameText": "Martin-Green, Sonequa",
                 "name": "Sonequa Martin-Green",
                 "category": "actress",
@@ -471,18 +471,18 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Michael Burnham",
-                        "characterId": "/character/ch0573093/"
+                        "characterId": "/character/ch0573093"
                     },
                     {
                         "character": "Cmdr. Michael Burnham",
-                        "characterId": "/character/ch0573093/"
+                        "characterId": "/character/ch0573093"
                     }
                 ],
                 "startYear": 2017
             },
             {
                 "disambiguation": "I",
-                "id": "/name/nm0427964/",
+                "id": "/name/nm0427964",
                 "legacyNameText": "Jones, Doug (I)",
                 "name": "Doug Jones",
                 "category": "actor",
@@ -495,7 +495,7 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Saru",
-                        "characterId": "/character/ch0573094/"
+                        "characterId": "/character/ch0573094"
                     },
                     {
                         "character": "Cmdr. Saru"
@@ -504,7 +504,7 @@ export const moviesMock: Movie[] = [
                 "startYear": 2017
             },
             {
-                "id": "/name/nm0710829/",
+                "id": "/name/nm0710829",
                 "legacyNameText": "Rapp, Anthony",
                 "name": "Anthony Rapp",
                 "category": "actor",
@@ -518,7 +518,7 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Paul Stamets",
-                        "characterId": "/character/ch0573096/"
+                        "characterId": "/character/ch0573096"
                     },
                     {
                         "character": "Lt. Cmdr. Paul Stamets"
@@ -532,10 +532,10 @@ export const moviesMock: Movie[] = [
         ]
     },
     {
-        "id": "/title/tt0796366/",
+        "id": "tt0796366",
         "image": {
             "height": 2048,
-            "id": "/title/tt0796366/images/rm101944320",
+            "id": "tt0796366/images/rm101944320",
             "url": "https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_.jpg",
             "width": 1382
         },
@@ -546,7 +546,7 @@ export const moviesMock: Movie[] = [
         "principals": [
             {
                 "disambiguation": "I",
-                "id": "/name/nm1517976/",
+                "id": "/name/nm1517976",
                 "legacyNameText": "Pine, Chris (I)",
                 "name": "Chris Pine",
                 "billing": 1,
@@ -557,12 +557,12 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Kirk",
-                        "characterId": "/character/ch0001448/"
+                        "characterId": "/character/ch0001448"
                     }
                 ]
             },
             {
-                "id": "/name/nm0704270/",
+                "id": "/name/nm0704270",
                 "legacyNameText": "Quinto, Zachary",
                 "name": "Zachary Quinto",
                 "billing": 2,
@@ -573,12 +573,12 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Spock",
-                        "characterId": "/character/ch0001439/"
+                        "characterId": "/character/ch0001439"
                     }
                 ]
             },
             {
-                "id": "/name/nm0670408/",
+                "id": "/name/nm0670408",
                 "legacyNameText": "Pegg, Simon",
                 "name": "Simon Pegg",
                 "billing": 8,
@@ -589,22 +589,22 @@ export const moviesMock: Movie[] = [
                 "roles": [
                     {
                         "character": "Scotty",
-                        "characterId": "/character/ch0001544/"
+                        "characterId": "/character/ch0001544"
                     }
                 ]
             }
         ]
     },
     {
-      "id": "/title/tt4061080/",
+      "id": "tt4061080",
       "image": {
         "height": 1185,
-        "id": "/title/tt4061080/images/rm2694534912",
+        "id": "tt4061080/images/rm2694534912",
         "url": "https://m.media-amazon.com/images/M/MV5BYzgwMWI4ZGMtOGYyMi00ZmYyLWE0MzUtYmU5MjE1NDQ5MDhmXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_.jpg",
         "width": 800
       },
       "runningTimeInMinutes": 50,
-      "nextEpisode": "/title/tt4288962/",
+      "nextEpisode": "tt4288962",
       "numberOfEpisodes": 34,
       "seriesEndYear": 2018,
       "seriesStartYear": 2016,
@@ -613,7 +613,7 @@ export const moviesMock: Movie[] = [
       "year": 2016,
       "principals": [
         {
-          "id": "/name/nm1843026/",
+          "id": "/name/nm1843026",
           "legacyNameText": "Jacobs, Gillian",
           "name": "Gillian Jacobs",
           "category": "actress",
@@ -625,13 +625,13 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Mickey Dobbs",
-              "characterId": "/character/ch0538038/"
+              "characterId": "/character/ch0538038"
             }
           ],
           "startYear": 2016
         },
         {
-          "id": "/name/nm1770256/",
+          "id": "/name/nm1770256",
           "legacyNameText": "Rust, Paul",
           "name": "Paul Rust",
           "category": "actor",
@@ -643,13 +643,13 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Gus Cruikshank",
-              "characterId": "/character/ch0538039/"
+              "characterId": "/character/ch0538039"
             }
           ],
           "startYear": 2016
         },
         {
-          "id": "/name/nm5307166/",
+          "id": "/name/nm5307166",
           "legacyNameText": "O'Doherty, Claudia",
           "name": "Claudia O'Doherty",
           "category": "actress",
@@ -661,7 +661,7 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Bertie Bauer",
-              "characterId": "/character/ch0565438/"
+              "characterId": "/character/ch0565438"
             }
           ],
           "startYear": 2016
@@ -669,10 +669,10 @@ export const moviesMock: Movie[] = [
       ]
     },
     {
-      "id": "/title/tt1602620/",
+      "id": "tt1602620",
       "image": {
         "height": 2048,
-        "id": "/title/tt1602620/images/rm3812796672",
+        "id": "tt1602620/images/rm3812796672",
         "url": "https://m.media-amazon.com/images/M/MV5BMTk1NTc3NDc4MF5BMl5BanBnXkFtZTcwNjYwNDk0OA@@._V1_.jpg",
         "width": 1382
       },
@@ -682,7 +682,7 @@ export const moviesMock: Movie[] = [
       "year": 2012,
       "principals": [
         {
-          "id": "/name/nm0004462/",
+          "id": "/name/nm0004462",
           "legacyNameText": "Trintignant, Jean-Louis",
           "name": "Jean-Louis Trintignant",
           "billing": 1,
@@ -693,12 +693,12 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Georges",
-              "characterId": "/character/ch0365286/"
+              "characterId": "/character/ch0365286"
             }
           ]
         },
         {
-          "id": "/name/nm0728938/",
+          "id": "/name/nm0728938",
           "legacyNameText": "Riva, Emmanuelle",
           "name": "Emmanuelle Riva",
           "billing": 2,
@@ -709,12 +709,12 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Anne",
-              "characterId": "/character/ch0365287/"
+              "characterId": "/character/ch0365287"
             }
           ]
         },
         {
-          "id": "/name/nm0001376/",
+          "id": "/name/nm0001376",
           "legacyNameText": "Huppert, Isabelle",
           "name": "Isabelle Huppert",
           "billing": 3,
@@ -725,17 +725,17 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Eva",
-              "characterId": "/character/ch0365288/"
+              "characterId": "/character/ch0365288"
             }
           ]
         }
       ]
     },
     {
-      "id": "/title/tt10752004/",
+      "id": "tt10752004",
       "image": {
         "height": 2222,
-        "id": "/title/tt10752004/images/rm3048470273",
+        "id": "tt10752004/images/rm3048470273",
         "url": "https://m.media-amazon.com/images/M/MV5BODIwNDIxN2YtMWU3ZS00MjU5LWIxMzctNmY1NDg5NDgwYmM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
         "width": 1500
       },
@@ -745,7 +745,7 @@ export const moviesMock: Movie[] = [
       "year": 2021,
       "principals": [
         {
-          "id": "/name/nm2400045/",
+          "id": "/name/nm2400045",
           "legacyNameText": "Dobrev, Nina",
           "name": "Nina Dobrev",
           "billing": 1,
@@ -760,7 +760,7 @@ export const moviesMock: Movie[] = [
           ]
         },
         {
-          "id": "/name/nm4497202/",
+          "id": "/name/nm4497202",
           "legacyNameText": "Yang, Jimmy O.",
           "name": "Jimmy O. Yang",
           "billing": 2,
@@ -775,7 +775,7 @@ export const moviesMock: Movie[] = [
           ]
         },
         {
-          "id": "/name/nm6651162/",
+          "id": "/name/nm6651162",
           "legacyNameText": "Barnet, Darren",
           "name": "Darren Barnet",
           "billing": 3,
@@ -792,10 +792,10 @@ export const moviesMock: Movie[] = [
       ]
     },
     {
-      "id": "/title/tt0314331/",
+      "id": "tt0314331",
       "image": {
         "height": 600,
-        "id": "/title/tt0314331/images/rm3436419328",
+        "id": "tt0314331/images/rm3436419328",
         "url": "https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_.jpg",
         "width": 405
       },
@@ -806,7 +806,7 @@ export const moviesMock: Movie[] = [
       "principals": [
         {
           "disambiguation": "I",
-          "id": "/name/nm0000424/",
+          "id": "/name/nm0000424",
           "legacyNameText": "Grant, Hugh (I)",
           "name": "Hugh Grant",
           "billing": 16,
@@ -817,12 +817,12 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "The Prime Minister",
-              "characterId": "/character/ch0005813/"
+              "characterId": "/character/ch0005813"
             }
           ]
         },
         {
-          "id": "/name/nm0567356/",
+          "id": "/name/nm0567356",
           "legacyNameText": "McCutcheon, Martine",
           "name": "Martine McCutcheon",
           "billing": 20,
@@ -833,12 +833,12 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Natalie",
-              "characterId": "/character/ch0005822/"
+              "characterId": "/character/ch0005822"
             }
           ]
         },
         {
-          "id": "/name/nm0000553/",
+          "id": "/name/nm0000553",
           "legacyNameText": "Neeson, Liam",
           "name": "Liam Neeson",
           "billing": 6,
@@ -849,22 +849,22 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Daniel",
-              "characterId": "/character/ch0005811/"
+              "characterId": "/character/ch0005811"
             }
           ]
         }
       ]
     },
     {
-      "id": "/title/tt10380768/",
+      "id": "tt10380768",
       "image": {
         "height": 1500,
-        "id": "/title/tt10380768/images/rm1461515777",
+        "id": "tt10380768/images/rm1461515777",
         "url": "https://m.media-amazon.com/images/M/MV5BN2Y4ODk2ZTQtMzFjOS00MzlhLWFhN2YtYzBiYmRmNzFhYjY0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
         "width": 1013
       },
       "runningTimeInMinutes": 35,
-      "nextEpisode": "/title/tt10384072/",
+      "nextEpisode": "tt10384072",
       "numberOfEpisodes": 20,
       "seriesStartYear": 2020,
       "title": "Love Life",
@@ -873,7 +873,7 @@ export const moviesMock: Movie[] = [
       "principals": [
         {
           "disambiguation": "I",
-          "id": "/name/nm0447695/",
+          "id": "/name/nm0447695",
           "legacyNameText": "Kendrick, Anna (I)",
           "name": "Anna Kendrick",
           "category": "actress",
@@ -890,7 +890,7 @@ export const moviesMock: Movie[] = [
           "startYear": 2020
         },
         {
-          "id": "/name/nm3856316/",
+          "id": "/name/nm3856316",
           "legacyNameText": "Chao, Zoe",
           "name": "Zoe Chao",
           "category": "actress",
@@ -907,7 +907,7 @@ export const moviesMock: Movie[] = [
           "startYear": 2020
         },
         {
-          "id": "/name/nm0114430/",
+          "id": "/name/nm0114430",
           "legacyNameText": "Vack, Peter",
           "name": "Peter Vack",
           "category": "actor",
@@ -926,10 +926,10 @@ export const moviesMock: Movie[] = [
       ]
     },
     {
-      "id": "/title/tt5463162/",
+      "id": "tt5463162",
       "image": {
         "height": 1607,
-        "id": "/title/tt5463162/images/rm1218472448",
+        "id": "tt5463162/images/rm1218472448",
         "url": "https://m.media-amazon.com/images/M/MV5BMDkzNmRhNTMtZDI4NC00Zjg1LTgxM2QtMjYxZDQ3OWJlMDRlXkEyXkFqcGdeQXVyNTU5MjkzMTU@._V1_.jpg",
         "width": 1073
       },
@@ -940,7 +940,7 @@ export const moviesMock: Movie[] = [
       "principals": [
         {
           "disambiguation": "I",
-          "id": "/name/nm0005351/",
+          "id": "/name/nm0005351",
           "legacyNameText": "Reynolds, Ryan (I)",
           "name": "Ryan Reynolds",
           "billing": 1,
@@ -953,11 +953,11 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Wade Wilson",
-              "characterId": "/character/ch0526914/"
+              "characterId": "/character/ch0526914"
             },
             {
               "character": "Deadpool",
-              "characterId": "/character/ch0027050/"
+              "characterId": "/character/ch0027050"
             },
             {
               "character": "Voice of Juggernaut"
@@ -965,7 +965,7 @@ export const moviesMock: Movie[] = [
           ]
         },
         {
-          "id": "/name/nm0000982/",
+          "id": "/name/nm0000982",
           "legacyNameText": "Brolin, Josh",
           "name": "Josh Brolin",
           "billing": 2,
@@ -976,12 +976,12 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Cable",
-              "characterId": "/character/ch0036560/"
+              "characterId": "/character/ch0036560"
             }
           ]
         },
         {
-          "id": "/name/nm1072555/",
+          "id": "/name/nm1072555",
           "legacyNameText": "Baccarin, Morena",
           "name": "Morena Baccarin",
           "billing": 3,
@@ -992,22 +992,22 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Vanessa",
-              "characterId": "/character/ch0513108/"
+              "characterId": "/character/ch0513108"
             }
           ]
         }
       ]
     },
     {
-      "id": "/title/tt5171438/",
+      "id": "tt5171438",
       "image": {
         "height": 1500,
-        "id": "/title/tt5171438/images/rm1057289985",
+        "id": "tt5171438/images/rm1057289985",
         "url": "https://m.media-amazon.com/images/M/MV5BNjg1NTc2MDktZTU5Ni00OTZiLWIyNjQtN2FhNGY4MzAxNmZkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
         "width": 1000
       },
       "runningTimeInMinutes": 60,
-      "nextEpisode": "/title/tt5509372/",
+      "nextEpisode": "tt5509372",
       "numberOfEpisodes": 53,
       "seriesStartYear": 2017,
       "title": "Star Trek: Discovery",
@@ -1015,7 +1015,7 @@ export const moviesMock: Movie[] = [
       "year": 2017,
       "principals": [
         {
-          "id": "/name/nm2792296/",
+          "id": "/name/nm2792296",
           "legacyNameText": "Martin-Green, Sonequa",
           "name": "Sonequa Martin-Green",
           "category": "actress",
@@ -1028,18 +1028,18 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Michael Burnham",
-              "characterId": "/character/ch0573093/"
+              "characterId": "/character/ch0573093"
             },
             {
               "character": "Cmdr. Michael Burnham",
-              "characterId": "/character/ch0573093/"
+              "characterId": "/character/ch0573093"
             }
           ],
           "startYear": 2017
         },
         {
           "disambiguation": "I",
-          "id": "/name/nm0427964/",
+          "id": "/name/nm0427964",
           "legacyNameText": "Jones, Doug (I)",
           "name": "Doug Jones",
           "category": "actor",
@@ -1052,7 +1052,7 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Saru",
-              "characterId": "/character/ch0573094/"
+              "characterId": "/character/ch0573094"
             },
             {
               "character": "Cmdr. Saru"
@@ -1061,7 +1061,7 @@ export const moviesMock: Movie[] = [
           "startYear": 2017
         },
         {
-          "id": "/name/nm0710829/",
+          "id": "/name/nm0710829",
           "legacyNameText": "Rapp, Anthony",
           "name": "Anthony Rapp",
           "category": "actor",
@@ -1075,7 +1075,7 @@ export const moviesMock: Movie[] = [
           "roles": [
             {
               "character": "Paul Stamets",
-              "characterId": "/character/ch0573096/"
+              "characterId": "/character/ch0573096"
             },
             {
               "character": "Lt. Cmdr. Paul Stamets"

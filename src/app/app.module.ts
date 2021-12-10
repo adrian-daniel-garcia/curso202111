@@ -11,6 +11,7 @@ import { PersonaItemComponent } from './components/persona-item/persona-item.com
 import { MoviesComponent } from './components/movies/movies.component';
 import { MovieDetailComponent } from './components/movie-detail/movie-detail.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { MyAccountComponent } from './components/my-account/my-account.component';
 // import { PersonService } from './services/person.service';
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MenuComponent } from './components/menu/menu.component';
     PersonaItemComponent,
     MoviesComponent,
     MovieDetailComponent,
-    MenuComponent
+    MenuComponent,
+    MyAccountComponent
   ],
   imports: [
     BrowserModule,
