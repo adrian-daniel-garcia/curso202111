@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { Movie } from '../models/movie.model';
 import { moviesMock } from './movies.mock';
 
@@ -7,6 +8,8 @@ import { moviesMock } from './movies.mock';
   providedIn: 'root'
 })
 export class MoviesService {
+
+  private url = environment.moviesRestApi;
 
   constructor() { }
 

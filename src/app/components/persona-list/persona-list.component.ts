@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, EventEmitter, Input, OnInit, Output, QueryList, ViewChildren } from '@angular/core';
+import { AfterViewInit, Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output, QueryList, SimpleChanges, ViewChildren } from '@angular/core';
 import { Persona } from 'src/app/models/persona.model';
 import { PersonaItemComponent } from '../persona-item/persona-item.component';
 
@@ -7,7 +7,7 @@ import { PersonaItemComponent } from '../persona-item/persona-item.component';
   templateUrl: './persona-list.component.html',
   styleUrls: ['./persona-list.component.scss']
 })
-export class PersonaListComponent implements OnInit, AfterViewInit {
+export class PersonaListComponent implements OnInit, AfterViewInit, OnDestroy, OnChanges {
 
   @Input() personas: Persona[] = [];
   @Output() selected = new EventEmitter<Persona>();
@@ -16,13 +16,22 @@ export class PersonaListComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
-  @ViewChildren(PersonaItemComponent) personaItems: QueryList<PersonaItemComponent> | any;
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    console.log('>>> PERSONA-LIST - ON INIT');
+  }
 
   ngAfterViewInit() {
+    console.log('>>> PERSONA-LIST - AFTER VIEW INIT');
+  }
 
-    this.personaItems.forEach((persona: any) => console.log(persona))
+  ngOnDestroy(): void {
+      console.log('>>> PERSONA-LIST - ON DESTROY');
+  }
+
+
+  ngOnChanges(changes: SimpleChanges): void {
+    console.log('>>> PERSONA-LIST - ON CHANGES', changes);
   }
 
   clickPersona(persona: Persona) {

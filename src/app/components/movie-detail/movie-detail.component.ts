@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Movie } from 'src/app/models/movie.model';
+import { CartService } from 'src/app/services/cart.service';
 import { MoviesService } from 'src/app/services/movies.service';
 
 @Component({
@@ -14,11 +15,15 @@ export class MovieDetailComponent implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private moviesService: MoviesService
+    private moviesService: MoviesService,
+    private cartService: CartService
   ) { }
 
   ngOnInit(): void {
     this.moviesService.getDetail(this.activatedRoute.snapshot.params['id'])
-    .subscribe( movie => console.log(movie));
+    .subscribe(
+      movie => this.cartService.addMovie(movie as Movie)
+    );
+
   }
 }

@@ -1,8 +1,10 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { environment } from 'src/environments/environment';
 // import { AppModule } from '../app.module';
 import { Persona } from '../models/persona.model';
-import { personasMock } from './persona.mock';
+// import { personasMock } from './persona.mock';
 
 @Injectable(
   {
@@ -12,9 +14,17 @@ import { personasMock } from './persona.mock';
 )
 export class PersonService {
 
-  constructor() { }
+  private url = environment.moviesRestApi + 'personas';
+
+  constructor(
+    private httpClient: HttpClient
+  ) { }
 
   getList(): Observable<Persona[]> {
-    return of(personasMock);
+    return this.httpClient.get<Persona[]>(this.url);
+  }
+
+  getById(id: string): Observable<Persona> {
+    return this.httpClient.get<Persona>(`${this.url}/${id}`);
   }
 }

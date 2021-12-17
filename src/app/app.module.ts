@@ -13,6 +13,8 @@ import { MovieDetailComponent } from './components/movie-detail/movie-detail.com
 import { MenuComponent } from './components/menu/menu.component';
 import { MyAccountComponent } from './components/my-account/my-account.component';
 import { HooksComponent } from './components/hooks/hooks.component';
+import { HttpClientModule } from '@angular/common/http'
+
 // import { PersonService } from './services/person.service';
 
 @NgModule({
@@ -32,7 +34,8 @@ import { HooksComponent } from './components/hooks/hooks.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     // PersonService
