@@ -1,12 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { Movie } from 'src/app/models/movie.model';
 import { environment } from 'src/environments/environment';
-import { Movie } from '../models/movie.model';
 import { moviesMock } from './movies.mock';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class MoviesService {
 
   private url = environment.moviesRestApi;

@@ -8,8 +8,6 @@ import { TemplateFormComponent } from './components/template-form/template-form.
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
 import { PersonaListComponent } from './components/persona-list/persona-list.component';
 import { PersonaItemComponent } from './components/persona-item/persona-item.component';
-import { MoviesComponent } from './components/movies/movies.component';
-import { MovieDetailComponent } from './components/movie-detail/movie-detail.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { MyAccountComponent } from './components/my-account/my-account.component';
 import { HooksComponent } from './components/hooks/hooks.component';
@@ -26,8 +24,6 @@ import { MaterialModule } from './material/material.module';
     ReactiveFormComponent,
     PersonaListComponent,
     PersonaItemComponent,
-    MoviesComponent,
-    MovieDetailComponent,
     MenuComponent,
     MyAccountComponent,
     HooksComponent
