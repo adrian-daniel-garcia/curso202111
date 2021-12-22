@@ -13,7 +13,9 @@ import { MovieDetailComponent } from './components/movie-detail/movie-detail.com
 import { MenuComponent } from './components/menu/menu.component';
 import { MyAccountComponent } from './components/my-account/my-account.component';
 import { HooksComponent } from './components/hooks/hooks.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { MaterialModule } from './material/material.module';
 
 // import { PersonService } from './services/person.service';
 
@@ -35,7 +37,9 @@ import { HttpClientModule } from '@angular/common/http'
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [
     // PersonService

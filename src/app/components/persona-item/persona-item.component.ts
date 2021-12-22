@@ -8,7 +8,7 @@ import { Persona } from 'src/app/models/persona.model';
 })
 export class PersonaItemComponent implements OnInit {
 
-  @Input() persona: Persona = { apellido: '', nombre: '' };
+  @Input() persona: Persona | undefined;
 
   constructor() { }
 

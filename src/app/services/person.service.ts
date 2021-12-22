@@ -14,7 +14,7 @@ import { Persona } from '../models/persona.model';
 )
 export class PersonService {
 
-  private url = environment.moviesRestApi + 'personas';
+  private url = environment.moviesRestApi + 'persons';
 
   constructor(
     private httpClient: HttpClient
