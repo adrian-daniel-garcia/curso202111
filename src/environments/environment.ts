@@ -5,8 +5,9 @@
 export const environment = {
   production: false,
 
-  moviesRestApi: 'https://61bcb65dd8542f0017824990.mockapi.io/api/'
-
+  moviesRestApi: 'https://61bcb65dd8542f0017824990.mockapi.io/api/',
+  cartRestApi: 'http://localhost:3000/api/cart',
+  restApi:   'http://localhost:3000/api/'
 };
 
 /*

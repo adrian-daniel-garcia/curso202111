@@ -14,6 +14,7 @@ import { HooksComponent } from './components/hooks/hooks.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MaterialModule } from './material/material.module';
+import { LoginComponent } from './components/login/login.component';
 
 // import { PersonService } from './services/person.service';
 
@@ -26,7 +27,8 @@ import { MaterialModule } from './material/material.module';
     PersonaItemComponent,
     MenuComponent,
     MyAccountComponent,
-    HooksComponent
+    HooksComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

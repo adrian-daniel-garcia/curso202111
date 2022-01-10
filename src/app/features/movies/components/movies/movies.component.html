@@ -16,6 +16,8 @@
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </mat-card-content>
     <mat-card-actions>
+      <button mat-flat-button color="primary" mat-button (click)="addToCart(movie)">Add to cart</button>
+
       <button mat-flat-button color="primary" mat-button (click)="navigateToDetail(movie.id)">+ Info</button>
     </mat-card-actions>
   </mat-card>

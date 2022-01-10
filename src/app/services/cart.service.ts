@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { Movie } from '../models/movie.model';
 
 @Injectable({
@@ -7,19 +9,18 @@ import { Movie } from '../models/movie.model';
 })
 export class CartService {
 
-  private list: Movie[] = [];
+  url = environment.cartRestApi;
 
-  constructor() { }
+  constructor(
+    private httpClient: HttpClient
+  ) { }
 
-  getList(): Observable<Movie[]> {
-    return of(this.list);
+  getList(): Observable<any[]> {
+    return this.httpClient.get<any[]>(this.url);
   }
 
   addMovie(movie: Movie) {
-    //if (this.list.indexOf( (m: Movie) => m.id === movie.id) ) {
-      this.list.push(movie);
-    //}
-    console.log(this.list);
+    return this.httpClient.post<any>(this.url, { id: movie.id, movie });
   }
 
   removeMovie(movie: Movie) {

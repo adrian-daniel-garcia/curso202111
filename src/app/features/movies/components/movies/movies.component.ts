@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Movie } from 'src/app/models/movie.model';
+import { CartService } from 'src/app/services/cart.service';
 import { MoviesService } from '../../services/movies.service';
 
 @Component({
@@ -12,7 +13,8 @@ export class MoviesComponent implements OnInit {
 
   constructor(
     private movieService: MoviesService,
-    private router: Router
+    private router: Router,
+    private cartService: CartService
   ) { }
 
   movies: Movie[] = [];
@@ -23,6 +25,12 @@ export class MoviesComponent implements OnInit {
 
   navigateToDetail(id: string) {
     this.router.navigate(['peliculas', id]);
+  }
+
+  addToCart(movie: Movie): void {
+    this.cartService.addMovie(movie).subscribe(
+      data => console.log(data)
+    );
   }
 
 }

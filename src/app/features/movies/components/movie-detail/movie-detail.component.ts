@@ -22,8 +22,12 @@ export class MovieDetailComponent implements OnInit {
   ngOnInit(): void {
     this.moviesService.getDetail(this.activatedRoute.snapshot.params['id'])
     .subscribe(
-      movie => this.cartService.addMovie(movie as Movie)
+      // movie => this.cartService.addMovie(movie as Movie)
     );
+
+   this.cartService.getList().subscribe(
+     list => console.log(list)
+   )
 
   }
 }
