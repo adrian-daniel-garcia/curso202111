@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HooksComponent } from './components/hooks/hooks.component';
 import { LoginComponent } from './components/login/login.component';
 import { MyAccountComponent } from './components/my-account/my-account.component';
+import { AdminRoleGuard } from './guards/admin-role.guard';
 import { ProtectedRouteGuard } from './guards/protected-route.guard';
 
 const routes: Routes = [
@@ -18,10 +19,12 @@ const routes: Routes = [
   },
   {
     path: 'mi-cuenta',
+    canActivate: [ProtectedRouteGuard],
     component: MyAccountComponent
   },
   {
     path: 'hooks',
+    canActivate: [ProtectedRouteGuard, AdminRoleGuard],
     component: HooksComponent
   },
   {

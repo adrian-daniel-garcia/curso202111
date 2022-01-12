@@ -11,10 +11,11 @@ import { PersonaItemComponent } from './components/persona-item/persona-item.com
 import { MenuComponent } from './components/menu/menu.component';
 import { MyAccountComponent } from './components/my-account/my-account.component';
 import { HooksComponent } from './components/hooks/hooks.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MaterialModule } from './material/material.module';
 import { LoginComponent } from './components/login/login.component';
+import { AuthInterceptor } from './interceptors/auth.interceptor';
 
 // import { PersonService } from './services/person.service';
 
@@ -40,8 +41,8 @@ import { LoginComponent } from './components/login/login.component';
     MaterialModule
   ],
   providers: [
-    // PersonService
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
   ],
-  bootstrap: [AppComponent]
+bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -32,7 +32,7 @@ export class LoginComponent implements OnInit {
         if (valid) {
           this.router.navigate(['peliculas']);
         } else {
-          this.error = 'User or Password invalid';
+          this.error = 'Invalid User or Password';
         }
       })
     }

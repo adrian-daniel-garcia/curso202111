@@ -12,6 +12,7 @@ export class LoginService {
   private token: any = null;
   private user = '';
   private userName = '';
+  private role = '';
 
   url = `${environment.restApi}login`;
 
@@ -28,6 +29,7 @@ export class LoginService {
           const decodedToken: any = jwt_decode(this.token);
           this.user = decodedToken?.user;
           this.userName = decodedToken?.userName;
+          this.role = decodedToken?.role;
           return true;
         } else {
           this.token = null;
@@ -48,7 +50,8 @@ export class LoginService {
   getUserInfo(): any {
     return {
       user: this.user,
-      userName: this.userName
+      userName: this.userName,
+      role: this.role
     }
   }
 }
