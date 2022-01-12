@@ -22,4 +22,14 @@ describe('MenuComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should title property be "Alquiler de Películas"', () => {
+    expect(component.title).toBe('Alquiler de Películas');
+  });
+
+  it('should render title', () => {
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('.title').textContent).toContain('Alquiler de Películas');
+  });
 });

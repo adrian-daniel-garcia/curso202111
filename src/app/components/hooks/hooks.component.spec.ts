@@ -1,14 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { PersonService } from 'src/app/services/person.service';
+import { PersonMockService } from 'src/app/services/person.service.mock';
 
 import { HooksComponent } from './hooks.component';
 
-describe('HooksComponent', () => {
+fdescribe('HooksComponent', () => {
   let component: HooksComponent;
   let fixture: ComponentFixture<HooksComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HooksComponent ]
+      declarations: [ HooksComponent ],
+      providers: [{
+        provide: PersonService,
+        useValue: PersonMockService
+      }]
     })
     .compileComponents();
   });
